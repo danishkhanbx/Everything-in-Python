@@ -1,0 +1,35 @@
+Regex is used for pattern or string matching.
+
+[] : returns a match if string starts contains pattern/characters specified in it
+^ : returns a match if string starts with given pattern
+$ : String ends with the character
+. : any character except new line
+* : occurs 0 or more times
++ : occurs 1 or more times
+{} : specified number of occurrences
+/ : special sequence
+
+[abc]: a, b or c
+[^abc]: any character except (!a, b or c)
+[a-z]: any character between a to z
+[A-Z]: A to Z
+[a-z A-Z]: a to and A to Z
+[0-9]: 0 to 9 any number
+[0-9][0-9]: returns a match if string contains two digit numbers
+Quantifiers:
+[ ]? occurs 0 or 1 times
+[ ]+ occurs 1 or more times
+[ ]* occurs 0 or more times
+[ ]{n} occurs n times
+[ ]{n, } occurs n or more times
+[ ]{y,z} occurs at-least y but less than x times
+
+Meta Characters:
+\d : means [0-9]
+\D : [^0-9]
+\w : [a-z A-Z 0-9]
+\W : [^a-z A-Z 0-9]
+\s : returns a match if given string is having spaces
+\S : returns a match if given string is not having spaces
+\z : returns a match if given string ends with a specified character
+\ : before any special character of regex treats the following special character as a normal character

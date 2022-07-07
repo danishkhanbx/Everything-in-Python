@@ -1,0 +1,4 @@
+
+# print(f.read()) # to read everything from the file
+# print(f.readline(), end='')  # to read one line at a time from the file
+# print(f.readline())
