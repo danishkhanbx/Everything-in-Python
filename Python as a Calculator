@@ -1,0 +1,29 @@
+p = 3 + 2
+print(p)
+m = 3 -2
+print(m)
+mul = 3 * 2
+print(mul)
+div = 3 / 2   # division always returns a floating point number
+print(div)
+idiv = 3 // 2  # To do floor division and get an integer result (discarding any fractional result) you can use the // operator
+print(idiv)
+pow = 3 ** 2   # operator to calculate powers, 2 to the power of 3
+print(pow)
+# In interactive mode, the last printed expression is assigned to the variable " _ "
+
+# Math Functions
+import math as m
+
+print("Square root of 8 is",m.sqrt(8))
+print("2^5:",m.pow(2, 5))
+
+print('Ceil value of 3 is',m.ceil(3.5))
+print('Floor value of 3 is',m.floor(3.5))
+
+print("sin90` =",m.sin(90 * (3.14/180)))  # in degrees
+print("cos90` =",m.cos(90 * (3.14/180)))
+
+print("e =",m.e)  # constant variables in math
+print("pi =",m.pi)
+
