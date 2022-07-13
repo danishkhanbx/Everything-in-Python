@@ -1,0 +1,18 @@
+Already Installed: Python latest version
+One Time: pip3 install pipenv
+1) Create a directory: mkdir x
+2) Navigate(cd) in the directory x
+3) First Time: pipenv install django
+4) To open project in VS code: code .
+5) Start the Virtual environment: pipenv shell
+6) Create the project in the current folder: django-admin startproject project_name .
+7) python manage.py runserver optional-port_number(9000)
+8) Configure terminal in VScode:
+i) Open Command Palette from View menu
+ii) Search: Python interpreter
+iii) To get the path of the interpreter that we want, in the terminal enter and copy it: pipenv --venv
+iv) In VScode select: Enter path and paste the above adding: C\...\bin\python
+For example,
+C:\Users\Your Name\xyz> "C:/Users/Your Name/.virtualenvs/xyz-_JAVqLtm/Scripts/activate.bat"
+Manually paste the above command after updating, to enter the VE if it didn't start implicitly when you start your Terminal.
+(xyz) C:\Users\Your Name\xyz> pipenv shell
